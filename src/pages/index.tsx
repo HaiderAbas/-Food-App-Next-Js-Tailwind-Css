@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import Hero from "@/components/Hero/Hero";
 import Cards from "@/components/Cards/Cards";
+import Food from "@/components/food/Food";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function Home() {
         <div className="">
           <Hero />
           <Cards />
+          <Food/>
         </div>
       </main>
     </>
